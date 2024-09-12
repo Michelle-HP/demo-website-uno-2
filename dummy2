@@ -4,25 +4,42 @@
     <meta charset="en" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keywords" content="HTML,CSS" />
-    <meta name="description" content="This page displays a list of tables" />
+    <meta name="description" content="This page displays BTEX Units" />
     <title>Spiral X Index</title>
     <style>
+      img {
+        width: 500px; /* picture size */
+        border-radius: 10px; /* circular border radius */
+        /* float: left; / place image next to text */
+        margin-right: 10px; /* create space after image */
+      } /* reference image */
       p.username {
         font-weight: bold; /* bold font only for p user class */
       }
     </style>
   </head>
   <body>
-    <h1>Tables Index</h1>
+    <h1>BTEX Emission Units</h1>
+    <h2>BTEX Combustors</h2>
+    <img src="../images/combustor.png" alt="combustor image unavailable" />
+    <p class="username">@spiralx</p>
+    <p><em>Spiral X</em> Combustor Unit</p>
+    <h2>BTEX Ambient</h2>
+    <img src="../images/ambient.png" alt="ambient image unavailable" />
+    <p class="username">@spiralx</p>
+    <p><em>Spiral X</em> Ambient Unit</p>
+    <p>Find out more on our website!</p>
+    <a href="Spiral X\about.html">About Us</a>
     <br />
-    <a href="../Spiral X/Tables/sample table.html">Sample Table</a>
+    <a href="https://spiralxllc.com/">
+      <img src="../images/home.png" />
+    </a>
     <br />
-    <a href="../Spiral X/Tables/temperature vs time.html"
-      >Temperature vs. Time Table</a
-    >
+    <a href="../Spiral X/dummy.html">Dummy</a>
     <br />
-    <a href="../Spiral X/Tables/BTEX table.html">BTEX Table</a>
+    <a href="../Spiral X/tables index.html">Tables Index</a>
     <br />
-    <a href="../index.html">Index</a>
+    <a href="dummy2.html">Dummy 2</a>
+    <br />
   </body>
 </html>
